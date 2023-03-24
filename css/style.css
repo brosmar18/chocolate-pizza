@@ -1,0 +1,146 @@
+.page {
+    margin: 0 auto;
+    font-family: "Helvetica Neue", "Arial", "sans-serif";
+    font-size: 16px;
+    line-height: 20px;
+    width: 900px;
+}
+
+.header {
+    height: 280px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.nav__logo-image {
+    height: 65px;
+}
+
+.nav__icons {
+    display: flex;
+    gap: 1px;
+}
+
+.nav__icons-pinterest {
+    margin-right: 8px;
+}
+
+.chocolate-pizza {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chocolate-pizza__print {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 100px;
+}
+
+.chocolate-pizza__print-logo {
+    height: 18px;
+    width: 18px;
+}
+
+.chocolate-pizza-photo {
+    width: 900px;
+}
+
+.chocolate-pizza-photo__description {
+    text-indent: 40px;
+}
+
+.chocolate-pizza-photo__recipe {
+    background-image: url(../images/list-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.chocolate-pizza-photo__recipe-list1,
+.chocolate-pizza-photo__recipe-list2 {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.stevenson {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.stevenson__image-text {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.stevenson__image {
+    height: 80px;
+}
+
+.stevenson__text {
+    width: 550px;
+}
+
+.button {
+    height: 60px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: darkorange;
+    color: white;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: rgb(189, 107, 6);
+}
+
+.footer {
+    height: 200px;
+}
+
+.footer__logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__logo-image {
+    margin: 5px;
+}
+
+.footer__logo-divider {
+    width: 100%;
+    flex-grow: 1;
+    border-bottom: 1px solid black;
+    opacity: 0.2;
+}
+
+.footer__text {
+    width: 300px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.footer__copyright {
+    margin-top: 10px;
+}
